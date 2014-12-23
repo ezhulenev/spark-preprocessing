@@ -8,9 +8,9 @@ organization := "org.apache.spark.preprocessing"
 
 licenses in ThisBuild += ("Apache-2.0", url("http://www.apache.org/licenses/LICENSE-2.0"))
 
-scalaVersion := "2.11.4"
+scalaVersion := "2.10.4"
 
-crossScalaVersions in ThisBuild := Seq("2.10.4", "2.11.4")
+//crossScalaVersions in ThisBuild := Seq("2.10.4", "2.11.4")
 
 scalacOptions += "-deprecation"
 
@@ -30,7 +30,7 @@ resolvers ++= Seq(
 
 libraryDependencies ++= Seq(
   "org.scalaz"        %% "scalaz-core"   % "7.1.0",
-  "org.apache.spark"  %% "spark-core"    % "1.2.0"
+  "org.apache.spark"  %% "spark-core"    % "1.1.0"
 )
 
 // Test Dependencies
