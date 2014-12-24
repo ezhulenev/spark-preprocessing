@@ -2,7 +2,10 @@ package org.apache.spark.preprocessing.statistics
 
 import scalaz.Monoid
 
-case class MinMax(minimum: Double, maximum: Double)
+case class MinMax(
+  minimum: Double,
+  maximum: Double
+)
 
 object MinMax {
 
