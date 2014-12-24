@@ -1,6 +1,6 @@
-package org.apache.spark.preprocessing
+package com.scalafi.spark.preprocessing
 
-import org.apache.spark.preprocessing.statistics.SeriesStatistics
+import com.scalafi.spark.preprocessing.statistics.SeriesStatistics
 import org.apache.spark.rdd.RDD
 
 object SeriesTransformation {

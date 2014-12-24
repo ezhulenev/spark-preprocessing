@@ -1,4 +1,4 @@
-package org.apache.spark.preprocessing.statistics
+package com.scalafi.spark.preprocessing.statistics
 
 import scalaz.Monoid
 

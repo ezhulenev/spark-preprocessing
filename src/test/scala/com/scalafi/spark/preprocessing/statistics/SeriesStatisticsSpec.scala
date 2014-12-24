@@ -1,4 +1,4 @@
-package org.apache.spark.preprocessing.statistics
+package com.scalafi.spark.preprocessing.statistics
 
 import org.apache.spark.preprocessing.TestSparkContext
 import org.scalatest.FlatSpec

@@ -1,4 +1,4 @@
-package org.apache.spark.preprocessing
+package com.scalafi.spark.preprocessing
 
 import org.apache.spark.rdd.RDD
 
